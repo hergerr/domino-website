@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     width: 40vw;
     height: 10vh;
-    border: 2px solid green;
+    border: 2px solid blue;
     border-radius: 10px;
     margin-top: 5vh;
 }
@@ -31,6 +31,10 @@ body {
     margin-top: 5vh;
 }
 
+.contact-frame p {
+    text-align: center;
+}
+
 .contact-frame li {
     text-decoration: none;
     list-style: none;
@@ -43,7 +47,7 @@ body {
     margin: 0 auto;
     width: 40vw;
     height: 30vh;
-    border: 2px solid red;
+    border: 2px solid blue;
     border-radius: 10px;
     flex-direction: column;
 }
