@@ -50,14 +50,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
