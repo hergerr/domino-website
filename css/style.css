@@ -38,3 +38,34 @@ html, body {
 }
 
 /*------------------------END OF TOP BAR----------------------*/
+/*------------------------OFFER SECTION----------------------*/
+
+.offer{
+    width: 1000px;
+    margin: 80px auto;
+}
+
+#offer-header {
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+}
+
+.single-offer {
+    border: 2px solid black;
+    margin: 30px 100px;
+}
+
+.single-offer img {
+    padding: 30px 60px;
+}
+
+.single-offer p {
+    text-align: center;
+    padding-bottom: 10px;
+}
