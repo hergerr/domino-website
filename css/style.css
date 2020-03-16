@@ -45,8 +45,9 @@ html, body {
     margin: 80px auto;
 }
 
-#offer-header {
+.section-header {
     font-size: 40px;
+    margin-bottom: 80px;
     text-align: center;
     font-weight: normal;
 }
@@ -68,4 +69,38 @@ html, body {
 .single-offer p {
     text-align: center;
     padding-bottom: 10px;
+}
+
+/*------------------------END OF OFFER SECTION----------------------*/
+/*------------------------STORY SECTION----------------------*/
+.story {
+    background-color: #F0F0F0;
+    padding: 30px 0 100px 0;
+}
+
+.story-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.building {
+    width: 400px;
+    margin: 30px;
+}
+
+.story-description{
+    width: 400px;
+    text-align: justify;
+    margin: 30px;
+    font-weight: lighter;
+}
+
+/*------------------------END STORY SECTION----------------------*/
+
+footer {
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 10px 0;
 }
