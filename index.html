@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -23,7 +24,32 @@
     </ul>
   </div>
 
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
 
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img class="slider-image" src="res/lamp_w.png">
+      <div class="text">We are into lighting</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img class="slider-image" src="res/mug_w.png">
+      <div class="text">We buy and sell daily use products</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img class="slider-image" src="res/company_w.png">
+      <div class="text">We are local company</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <script src="js/slider.js"></script>
 </body>
 
 </html>
