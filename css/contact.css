@@ -1,0 +1,30 @@
+.contact-section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#contact-box {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-box ul {
+    margin: 80px 50px;
+    list-style: none;
+    line-height: 2.5;
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

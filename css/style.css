@@ -98,7 +98,7 @@ html, body {
 .story-description{
     width: 450px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 1.5;
     margin: 30px;
     font-weight: lighter;
 }
